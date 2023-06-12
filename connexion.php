@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST') {
 
         <div class="form-group mt-2">
             <label for="password">Mot de passe</label>
-            <input id="password" name="password" class="form-control">
+            <input id="password" name="password" class="form-control" type="password">
         </div>
         <?php
         //Affichage des erreurs
